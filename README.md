@@ -145,7 +145,7 @@ Submit a Pull Request (PR) to the main branch.
 
 This project is licensed under the MIT License, allowing for open collaboration and modification.
 
-#Author
+##Author
 Sreejan Dhar
 
 For any questions or contributions, feel free to reach out!
