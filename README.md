@@ -1,10 +1,10 @@
-Drug Discovery Pipeline
+# Drug Discovery Pipeline
 
-📌 Overview
+## 📌 Overview
 
 The Drug Discovery Pipeline is an end-to-end computational framework designed to streamline and optimize the drug discovery process using cutting-edge machine learning (ML) and deep learning (DL) techniques. This pipeline facilitates molecular data processing, feature engineering, and predictive modeling to accelerate the identification of potential drug candidates, reducing the time and cost associated with traditional drug discovery methods.
 
-🏥 Problem Statement
+## 🏥 Problem Statement
 
 Drug discovery is a complex, time-consuming, and expensive process that involves screening thousands of compounds to identify a potential drug candidate. Traditional experimental approaches to drug discovery often take 10-15 years and cost billions of dollars, making it an inefficient and high-risk endeavor. The major challenges include:
 
@@ -16,7 +16,7 @@ Data Complexity: Large-scale molecular datasets require advanced computational t
 
 Need for Predictive Modeling: The pharmaceutical industry increasingly relies on computational models to predict molecular properties and biological activity.
 
-💡 Solution
+## 💡 Solution
 
 The Drug Discovery Pipeline addresses these challenges by integrating AI-driven molecular property prediction and computational chemistry into the drug discovery workflow. This automated approach enables:
 
@@ -25,7 +25,7 @@ The Drug Discovery Pipeline addresses these challenges by integrating AI-driven 
 ✅ Improved Drug Candidate Selection: Advanced feature engineering techniques help identify promising compounds with high efficacy and low toxicity.
 ✅ Scalability: The pipeline supports high-throughput screening, making it suitable for large datasets.
 
-🔥 Key Features
+## 🔥 Key Features
 
 ✅ Molecular Data Processing: Utilizes RDKit for molecular standardization, fingerprint generation, and structure cleaning.
 ✅ Machine Learning Workflow: Implements scikit-learn for data preprocessing, feature extraction, and predictive model evaluation.
@@ -33,18 +33,22 @@ The Drug Discovery Pipeline addresses these challenges by integrating AI-driven 
 ✅ Data Visualization & Analysis: Uses matplotlib and seaborn for exploratory data analysis (EDA) and result interpretation.
 ✅ Google Colab Compatibility: Supports cloud-based execution with seamless Google Drive integration.
 
-🚀 Installation
+## 🚀 Installation
 
 Ensure you have Python 3.8+ installed, then install the required dependencies using the following command:
 
+```python
 pip install rdkit numpy pandas matplotlib seaborn scikit-learn tensorflow
+```
 
-🎯 Usage Guide
+## 🎯 Usage Guide
 
 1️⃣ Clone the Repository
 
+```python
 git clone https://github.com/your-username/Drug-Discovery-Pipeline.git
 cd Drug-Discovery-Pipeline
+```
 
 2️⃣ Run the Jupyter Notebook
 
@@ -56,12 +60,14 @@ Open the notebook and execute the cells sequentially to process molecular data, 
 
 If running on Google Colab, execute the following commands inside the notebook to mount Google Drive:
 
+```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
 
 This allows access to datasets stored in Google Drive for large-scale training.
 
-🔬 Methodology
+## 🔬 Methodology
 
 The pipeline follows a structured approach:
 
@@ -91,7 +97,7 @@ Generate performance plots such as learning curves and confusion matrices.
 
 Visualize molecular feature distributions and correlation heatmaps.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 The Drug Discovery Pipeline is a continuously evolving framework. Future enhancements may include:
 
@@ -105,11 +111,11 @@ Cloud Deployment: Developing an API-based solution to provide easy access to dru
 
 Incorporation of Bioactivity Prediction: Extending the pipeline to predict ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) properties.
 
-🎯 Conclusion
+## 🎯 Conclusion
 
 The Drug Discovery Pipeline is a powerful computational tool that leverages AI and machine learning to optimize and accelerate the drug discovery process. By reducing costs, improving accuracy, and automating molecular screening, this pipeline provides an efficient alternative to traditional drug discovery methodologies. As technology advances, integrating more sophisticated models and larger datasets will further enhance its predictive capabilities, making it an indispensable tool in the pharmaceutical industry.
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 We would like to extend our gratitude to:
 
@@ -121,7 +127,7 @@ Developers & Researchers: Who have contributed ideas and methodologies to this f
 
 Users & Testers: For providing valuable feedback and suggestions to improve the pipeline.
 
-🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions from the community! Follow these steps to contribute:
 
@@ -129,23 +135,23 @@ Fork the repository on GitHub.
 
 Create a new branch for your feature or bug fix:
 
-git checkout -b feature-branch
+```git checkout -b feature-branch```
 
 Make your changes and commit them:
 
-git commit -m "Added feature XYZ"
+```git commit -m "Added feature XYZ"```
 
 Push your changes to GitHub:
 
-git push origin feature-branch
+```git push origin feature-branch```
 
 Submit a Pull Request (PR) to the main branch.
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License, allowing for open collaboration and modification.
 
-##Author
+## Author
 Sreejan Dhar
 
 For any questions or contributions, feel free to reach out!
